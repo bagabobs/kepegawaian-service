@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      show-sql: true
+  application:
+    name: kepegawain-service
+
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#    initialInstanceInfoReplicationIntervalSeconds: 5
+#    registryFetchIntervalSeconds: 5
+#  instance:
+#    leaseRenewalIntervalInSeconds: 5
+#    leaseExpirationDurationInSeconds: 5
+#
+#ribbon.ServerListRefreshInterval: 5000
+#
+#ribbon.NFLoadBalancerPingInterval: 5
