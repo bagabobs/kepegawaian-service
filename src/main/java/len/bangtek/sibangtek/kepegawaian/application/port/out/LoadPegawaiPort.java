@@ -1,6 +1,7 @@
 package len.bangtek.sibangtek.kepegawaian.application.port.out;
 
 import len.bangtek.sibangtek.kepegawaian.domain.Pegawai;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Optional;
